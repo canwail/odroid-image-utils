@@ -1,18 +1,8 @@
-# RonR-RaspberryPi-image-utils
+# ODROID image utils (RonR-RPi-image-utils)
 
-**NB** scruss is *not* the author or maintainer of thse files. No — and I mean **no** — issues will be accepted on this repo. Take it up in the [Image File Utilities](https://www.raspberrypi.org/forums/viewtopic.php?t=247568#p1511694) thread.
+Originally written by user [RonR](https://www.raspberrypi.org/forums/memberlist.php?mode=viewprofile&u=186692) over at <https://www.raspberrypi.org/forums/viewtopic.php?t=247568#p1511694>
 
-Tools to create a backup of a running Raspbian system to an SD card image file.
-
-This is a copy of the files that [Raspberry Pi Forums](https://www.raspberrypi.org/forums/index.php) user [RonR](https://www.raspberrypi.org/forums/memberlist.php?mode=viewprofile&u=186692) posted to the topic [Image File Utilities](https://www.raspberrypi.org/forums/viewtopic.php?t=247568#p1511694) on 2019-08-01. File attachments to this forum don't seem to be persistent, so this repo was created to ensure a working snapshot is always available.
-
-Copies of the original post/attachment are also available on the [Internet Archive](https://archive.org/):
-
-* article: https://web.archive.org/web/20190824163430/https://www.raspberrypi.org/forums/viewtopic.php?t=247568
-
-* attachment: https://web.archive.org/web/20190824162104/https://www.raspberrypi.org/forums/download/file.php?id=31366&sid=107ba04af18e19ad587c5bcf8ebacd38
-
-**NB from repo creator**: This is not my code. I don't use it, but I saw that others do and were being frustrated by the forum download links expiring. I won't be responding to issues posted here.
+ODROID devices seem to use mmcblk1 instead of mmcblk0, this version allows both. Tested to work on my ODROID HC2.
 
 Original README converted to markdown follows:
 
